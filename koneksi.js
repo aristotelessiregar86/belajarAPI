@@ -1,7 +1,7 @@
 var mySql = require('mysql');
 
 // Buat Koneksi DataBase
-const conn = mysql.createConnection({
+const conn = mySql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
